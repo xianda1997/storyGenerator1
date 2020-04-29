@@ -87,7 +87,7 @@ public class timeTravel {
                 };
 
         Random random=new Random();
-        int template = random.nextInt(10)%(10);
+        int template = random.nextInt(7)%(7);
 
         int history_max=history_war.length;
         int identity_max= identity.length;
