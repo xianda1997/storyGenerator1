@@ -16,6 +16,26 @@ public class travelForward {
                 "phone","iPad","laptop","television"
         };
 
+        String[] level={
+                "mid school", "high school", "college"
+        };
+
+        String[] names=
+                {
+                        "James",
+                        "Robert",
+                        "William",
+                        "Thomas",
+                        "Daniel",
+                        "Matthew",
+                        "Timothy",
+                        "Scott",
+                        "Raymond",
+                        "Joshua"
+
+                };
+
+
 
         return s;
     }
