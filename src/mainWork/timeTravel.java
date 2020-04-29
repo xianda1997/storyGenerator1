@@ -121,13 +121,13 @@ public class timeTravel {
         if(template==1)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max-1)%(history_max);
-            int t2 = random.nextInt(identity_max-1)%(identity_max);
-            int t3 = random.nextInt(describe_max-1)%(describe_max);
-            int t4 = random.nextInt(architecture_max-1)%(architecture_max);
-            int t5 = random.nextInt(weather_max-1)%(weather_max);
-            int t6 = random.nextInt(decision_max-1)%(decision_max);
-            int t7 = random.nextInt(name_max-1)%(name_max);
+            int t1 = random1.nextInt(history_max-1)%(history_max);
+            int t2 = random1.nextInt(identity_max-1)%(identity_max);
+            int t3 = random1.nextInt(describe_max-1)%(describe_max);
+            int t4 = random1.nextInt(architecture_max-1)%(architecture_max);
+            int t5 = random1.nextInt(weather_max-1)%(weather_max);
+            int t6 = random1.nextInt(decision_max-1)%(decision_max);
+            int t7 = random1.nextInt(name_max-1)%(name_max);
 
             backstory=names[t7]+ ", an "+identity[t2]+" professor of Stanford University, " +
                     "woke up and found himself beside a "+describe[t3]+" "+ architecture[t4]+". " +
@@ -146,13 +146,13 @@ public class timeTravel {
         if(template==2)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max)%(history_max);
-            int t2 = random.nextInt(identity_max)%(identity_max);
-            int t3 = random.nextInt(describe_max)%(describe_max);
-            int t4 = random.nextInt(architecture_max)%(architecture_max);
-            int t5 = random.nextInt(weather_max)%(weather_max);
-            int t6 = random.nextInt(decision_max)%(decision_max);
-            int t7 = random.nextInt(name_max)%(name_max);
+            int t1 = random1.nextInt(history_max)%(history_max);
+            int t2 = random1.nextInt(identity_max)%(identity_max);
+            int t3 = random1.nextInt(describe_max)%(describe_max);
+            int t4 = random1.nextInt(architecture_max)%(architecture_max);
+            int t5 = random1.nextInt(weather_max)%(weather_max);
+            int t6 = random1.nextInt(decision_max)%(decision_max);
+            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= names[t7]+", an "+identity[t2]+" professor of the University of Beijing, " +
                     "woke up to find next to a "+describe[t3]+ " "+ architecture[t4]+ ". " +
@@ -169,13 +169,13 @@ public class timeTravel {
         if(template==3)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max)%(history_max);
-            int t2 = random.nextInt(identity_max)%(identity_max);
-            int t3 = random.nextInt(describe_max)%(describe_max);
-            int t4 = random.nextInt(architecture_max)%(architecture_max);
-            int t5 = random.nextInt(weather_max)%(weather_max);
-            int t6 = random.nextInt(decision_max)%(decision_max);
-            int t7 = random.nextInt(name_max)%(name_max);
+            int t1 = random1.nextInt(history_max)%(history_max);
+            int t2 = random1.nextInt(identity_max)%(identity_max);
+            int t3 = random1.nextInt(describe_max)%(describe_max);
+            int t4 = random1.nextInt(architecture_max)%(architecture_max);
+            int t5 = random1.nextInt(weather_max)%(weather_max);
+            int t6 = random1.nextInt(decision_max)%(decision_max);
+            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= names[t7]+", an "+identity[t2]+" professor who has retired from Harvard University " +
                     "for more than ten years, was suddenly swept into twisted space while mowing. " +
@@ -193,13 +193,13 @@ public class timeTravel {
         if(template==4)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max)%(history_max);
-            int t2 = random.nextInt(identity_max)%(identity_max);
-            int t3 = random.nextInt(describe_max)%(describe_max);
-            int t4 = random.nextInt(architecture_max)%(architecture_max);
-            int t5 = random.nextInt(weather_max)%(weather_max);
-            int t6 = random.nextInt(decision_max)%(decision_max);
-            int t7 = random.nextInt(name_max)%(name_max);
+            int t1 = random1.nextInt(history_max)%(history_max);
+            int t2 = random1.nextInt(identity_max)%(identity_max);
+            int t3 = random1.nextInt(describe_max)%(describe_max);
+            int t4 = random1.nextInt(architecture_max)%(architecture_max);
+            int t5 = random1.nextInt(weather_max)%(weather_max);
+            int t6 = random1.nextInt(decision_max)%(decision_max);
+            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= "One "+weather[t5]+" night, "+names[t7]+", a professor of "+identity[t2]+" at Columbia University," +
                     " couldn't sleep. He was still thinking his doctoral students' history thesis during the day. " +
@@ -219,13 +219,13 @@ public class timeTravel {
         if(template==5)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max)%(history_max);
-            int t2 = random.nextInt(identity_max)%(identity_max);
-            int t3 = random.nextInt(describe_max)%(describe_max);
-            int t4 = random.nextInt(architecture_max)%(architecture_max);
-            int t5 = random.nextInt(weather_max)%(weather_max);
-            int t6 = random.nextInt(decision_max)%(decision_max);
-            int t7 = random.nextInt(name_max)%(name_max);
+            int t1 = random1.nextInt(history_max)%(history_max);
+            int t2 = random1.nextInt(identity_max)%(identity_max);
+            int t3 = random1.nextInt(describe_max)%(describe_max);
+            int t4 = random1.nextInt(architecture_max)%(architecture_max);
+            int t5 = random1.nextInt(weather_max)%(weather_max);
+            int t6 = random1.nextInt(decision_max)%(decision_max);
+            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= names[t7]+" is a professor of "+identity[t2]+". When he was on the spot investigation in the Alps, " +
                     "it suddenly rained heavily. With a "+weather[t5]+", " +
@@ -243,13 +243,13 @@ public class timeTravel {
         if(template==6)
         {
             Random random1=new Random();
-            int t1 = random.nextInt(history_max)%(history_max);
-            int t2 = random.nextInt(identity_max)%(identity_max);
-            int t3 = random.nextInt(describe_max)%(describe_max);
-            int t4 = random.nextInt(architecture_max)%(architecture_max);
-            int t5 = random.nextInt(weather_max)%(weather_max);
-            int t6 = random.nextInt(decision_max)%(decision_max);
-            int t7 = random.nextInt(name_max)%(name_max);
+            int t1 = random1.nextInt(history_max)%(history_max);
+            int t2 = random1.nextInt(identity_max)%(identity_max);
+            int t3 = random1.nextInt(describe_max)%(describe_max);
+            int t4 = random1.nextInt(architecture_max)%(architecture_max);
+            int t5 = random1.nextInt(weather_max)%(weather_max);
+            int t6 = random1.nextInt(decision_max)%(decision_max);
+            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory="It seems impossible to go back to the past, " +
                     "but "+names[t7]+", an "+identity[t2]+" professor at Stanford University, " +

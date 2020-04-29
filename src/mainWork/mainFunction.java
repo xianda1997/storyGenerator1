@@ -126,12 +126,16 @@ public class mainFunction {
         String ret=story.mainTimeStory();
         storyTextArea.append(ret);
         storyTextArea.append("\n");
+        storyTextArea.append("\n");
+        storyTextArea.append("\n");
     }
 
     private void Extraterrestrial_story(){
         travelForward story=new travelForward();
-
-        storyTextArea.append("hello story");
+        String ret=story.forward_story();
+        storyTextArea.append(ret);
+        storyTextArea.append("\n");
+        storyTextArea.append("\n");
         storyTextArea.append("\n");
     }
 
