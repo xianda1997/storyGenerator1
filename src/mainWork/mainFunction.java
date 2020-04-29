@@ -14,11 +14,9 @@ public class mainFunction {
 
     private JFrame mainFrame;
     private JPanel leftJPanel;
-    private JPanel rightJPanel;
     private JPanel textPanel;
     private JScrollPane container;
     public static JTextArea storyTextArea;
-    private JPanel characterPanel;
 
     private JPanel buttonPanel;
     private JButton Galaxy_war;
@@ -26,8 +24,6 @@ public class mainFunction {
     private JButton Clear;
 
     private JPanel resourceJPanel;
-
-    private JScrollPane clistJScrollPane;
 
     protected ActionListener clickActionListener;
 
@@ -43,11 +39,6 @@ public class mainFunction {
         leftJPanel = new JPanel();
         leftJPanel.setLayout(new BorderLayout());
         leftJPanel.setPreferredSize(new Dimension(1000,600));
-//		leftJPanel.setSize(new Dimension(400,600));
-//        rightJPanel = new JPanel();
-//        rightJPanel.setLayout(new BorderLayout());
-//        rightJPanel.setPreferredSize(new Dimension(200,600));
-//		rightJPanel.setSize(new Dimension(100,600));
 
         textPanel = new JPanel();
         storyTextArea = new JTextArea();
@@ -63,14 +54,6 @@ public class mainFunction {
         storyTextArea.setLineWrap(true);
         storyTextArea.setWrapStyleWord(true);
         resourceJPanel = new JPanel();
-
-        //characterPanel = new JPanel();
-        //characterList = new JList<Human>();
-
-        //characterPanel.setLayout(new GridLayout(1,1));
-        //characterPanel.add(clistJScrollPane);
-        //characterPanel.setBorder(new TitledBorder("Characters"));
-        //characterPanel.setVisible(false);
 
         buttonPanel = new JPanel();
         Galaxy_war = new JButton("Travel back");
