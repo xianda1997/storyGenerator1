@@ -44,29 +44,29 @@ public class travelForward {
             "the scarcity of natural resources",
             "the reduction of arable land",
             "acute air and water pollution",
-            "the temperature drop caused by ice age",
+            "the temperature drop caused by the ice age",
             "rising sea levels caused by global warming",
             "increased radiation from nuclear waste",
-            "mass extinction of poultry"
+            "a mass extinction of poultry"
     };
 
     public String[] plans={
             "immigrate to Mars",
-            "ask for help from alien civilization",
+            "ask for help from an alien civilization",
             //"product a man-made sun",
-            "Wander the earth to other galaxies"
+            "wander the earth to other galaxies"
     };
 
     public String[] awareness={
-            "great destruction on the natural environment",
-            "plundering exploration of the natural resources"
+            "the great destruction of the natural environment",
+            "the plundering exploration of natural resources"
 
     };
 
     public String[] decision={
             "sign up for the plan",
             "make a contribution to save the earth",
-            "become an volunteer and encourage more people take part in",
+            "become a volunteer and encourage more people to take part in it",
             "donate his deposit money in AIB"
     };
 
@@ -104,7 +104,7 @@ public class travelForward {
                     "going to bed after a day's "+doing[t2]+". All of a sudden, " +
                     "there was a white light on the screen. " +
                     "When everything returned to normal, " +
-                    "he found that it was "+year[t1]+"., " +
+                    "he found that it is "+year[t1]+"., " +
                     "and everything around him was strange. " +
                     "In the future, the world is facing "+rough[t8]+", " +
                     "and people plan to "+plans[t10]+ ". " +
@@ -122,9 +122,9 @@ public class travelForward {
                     "When everything returned to normal, he was in the future. " +
                     "The mobile phone showed the news of "+year[t1]+". " +
                     "Due to "+rough[t8]+", " +
-                    "human beings plans to "+plans[t10]+". " +
-                    "This's  due to "+awareness[t9]+  ". " +
-                    "He decided to "+decision[t6]+ ". "+"To be continue.";
+                    "human beings plan to "+plans[t10]+". " +
+                    "This is due to "+awareness[t9]+  ". " +
+                    "He decided to "+decision[t6]+ ". "+"To be continued.";
         }
 
         if(template==2)
@@ -152,12 +152,12 @@ public class travelForward {
 
         if(template==4)
         {
-            s=""+names[t7]+", a "+level[t5]+  ", suddenly received a message of help from a future human beings. " +
-                    "For some reasons, people in the future have forgotten what happened before 2020. " +
+            s=""+names[t7]+", a "+level[t5]+  ", suddenly received a message of help from future human beings. " +
+                    "For some reason, people in the future have forgotten what happened before 2020. " +
                     "At the same time, many solutions to disasters have been forgotten. " +
                     "In the future, people in the world are facing many difficulties, " +
-                    "such as "+rough[t8]+" and the spread of epidemic. " +
-                    ""+names[t7]+" realized that saving the future mankind might be saving himself, " +
+                    "such as "+rough[t8]+" and the spread of the epidemic. " +
+                    ""+names[t7]+" realized that saving the future of mankind might be saving himself, " +
                     "so he decided to "+decision[t6]+ ". To be continued.";
         }
 
@@ -165,8 +165,8 @@ public class travelForward {
         {
             s=""+names[t7]+" was reading a novel about travelling into the future by Asimov on his "+equipment[t4]+". " +
                     "He believed that it was impossible for human beings to travel forth. " +
-                    "All of a sudden, he was involved in a warped space. When everything returned to normal, " +
-                    "it was "+year[t1]+". At this time, science and technology has been very developed, " +
+                    "All of a sudden, he was involved in warped space. When everything returned to normal, " +
+                    "it was "+year[t1]+". At this time, science and technology have been very developed, " +
                     "but people are facing "+rough[t8]+". " +
                     "The leaders at that time were ready to "+plans[t10]+". " +
                     "What can a teenager from 2020 do? " +

@@ -8,14 +8,14 @@ public class timeTravel {
     public String[][] history_war=
             {
                     {"Augustus","Macedonia","41B.C","was fighting against Cassius.","Cassius"},
-                    {"Constantinus I", "Italy","312", "was in a duel near the Milvian bridge on the Tiber River.","another Augustus Maxentius"},
-                    {"Genghis Khan", "Caspian Sea", "1218", "was following up a victory with hot pursuit.","The Khwarizm"},
-                    {"Aléxandros III", "Granicus", "334B.C", "was marching to the East, prepare to fight the Persian army.","Persia"},
-                    {"Ying Zheng", "Xian Yang", "225B.C", "was preparing to destroy six other vassals .","other weak vassals"},
-                    {"Tolui Khan", "Khorasan", "1221", "was preparing to conquer Nishapur and Merv.","central Asians"},
-                    {"Justinianus I","Colchis","540","was preparing to address unequal relations with the Persian.","Shamanism Dynasty"},
-                    {"Julius Caesar","Parthia","44B.C"," announced that he would go on an expedition to Parthia in order to save the nine thousand Roman soldiers captured in the battle of Carlyle.","Parthia"},
-                    {"Napoleon", "Waterloo", "1815", "was preparing to fight against Anti France Alliance.","the British Empire, the United Kingdom of the Netherlands and the kingdom of Prussia"},
+                    {"Constantinus I", "Italy","312", "was in a duel near the Milvian bridge on the Tiber River","another Augustus Maxentius"},
+                    {"Genghis Khan", "Caspian Sea", "1218", "was following up a victory with hot pursuit","The Khwarizm"},
+                    {"Aléxandros III", "Granicus", "334B.C", "was marching to the East, prepare to fight the Persian army","Persia"},
+                    {"Ying Zheng", "Xian Yang", "225B.C", "was preparing to destroy six other vassals","other weak vassals"},
+                    {"Tolui Khan", "Khorasan", "1221", "was preparing to conquer Nishapur and Merv","central Asians"},
+                    {"Justinianus I","Colchis","540","was preparing to address unequal relations with the Persian","Shamanism Dynasty"},
+                    {"Julius Caesar","Parthia","44B.C"," announced that he would go on an expedition to Parthia in order to save the nine thousand Roman soldiers captured in the battle of Carlyle","Parthia"},
+                    {"Napoleon", "Waterloo", "1815", "was preparing to fight against Anti France Alliance","the British Empire, the United Kingdom of the Netherlands and the kingdom of Prussia"},
             };
 
     public String[] identity=
@@ -25,16 +25,16 @@ public class timeTravel {
 
     public String[] describe=
             {
-                    "huge",
-                    "great",
-                    "magnificent",
-                    "amazing",
-                    "unique",
-                    "special",
-                    "amazing",
-                    "imposing",
-                    "sumptuous",
-                    "splendid"
+                    "a huge",
+                    "a great",
+                    "a magnificent",
+                    "an amazing",
+                    "an unique",
+                    "a special",
+                    "an amazing",
+                    "an imposing",
+                    "a sumptuous",
+                    "a splendid"
             };
 
     public String[] architecture=
@@ -44,7 +44,7 @@ public class timeTravel {
 
     public String[] weather=
             {
-                    "rainstorm","dense fog","sandstorm","thunder storm","thunder storm and gale"
+                    "rainstorm","dense fog","sandstorm","thunderstorm","thunderstorm and gale"
             };
 
     public String[] decision=
@@ -160,7 +160,7 @@ public class timeTravel {
 
 
 
-            backstory= names[t7]+", an UCD professor of "+identity[t2]+" woke up and found himself next to a "+
+            backstory= names[t7]+", a UCD professor of "+identity[t2]+" woke up and found himself next to "+
                     describe[t3]+" "+ architecture[t4]+". Some people in exotic clothes passed by him and spoke a language that he can't understand. " +
                     "He tried to communicate with others and learned that it is "+history_war[t1][2]+"AC. "+
                     "According to his knowledge, the king is "+history_war[t1][0]+"."+" He realised that his doctoral dissertation is related to this period. "+
@@ -181,8 +181,8 @@ public class timeTravel {
 //            int t6 = random1.nextInt(decision_max-1)%(decision_max);
 //            int t7 = random1.nextInt(name_max-1)%(name_max);
 
-            backstory=names[t7]+ ", an "+identity[t2]+" professor of Stanford University, " +
-                    "woke up and found himself beside a "+describe[t3]+" "+ architecture[t4]+". " +
+            backstory=names[t7]+ ", a "+identity[t2]+" professor of Stanford University, " +
+                    "woke up and found himself beside "+describe[t3]+" "+ architecture[t4]+". " +
                     "Some people dressed in foreign clothes passed by him, saying the language he can't understand. " +
                     "He tried to communicate with others and learned that here is "+history_war[t1][1]+". " +
                     "Now the ruler is "+history_war[t1][0]+", and his doctoral dissertation research is precisely related to this. " +
@@ -191,7 +191,7 @@ public class timeTravel {
                     "He decides to "+ decision[t6]+" " +
                     "The sudden "+weather[t5]+" blocked the last light. " +
                     "This is a road that can go on without turning back. "+
-                    "To be continue...... ";
+                    "To be continued...... ";
         }
 
 
@@ -207,7 +207,7 @@ public class timeTravel {
 //            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= names[t7]+", a "+identity[t2]+" professor of the University of Beijing, " +
-                    "woke up to find next to a "+describe[t3]+ " "+ architecture[t4]+ ". " +
+                    "woke up to find next to "+describe[t3]+ " "+ architecture[t4]+ ". " +
                     "In the desert, some merchants passed by occasionally. " +
                     "Through conversation, he learned that the current ruler is "+history_war[t1][0]+". " +
                     "Based on his research, he realized that " +
@@ -230,7 +230,7 @@ public class timeTravel {
 
             backstory= names[t7]+", a "+identity[t2]+" professor who has retired from Harvard University " +
                     "for more than ten years, was suddenly swept into twisted space while mowing. " +
-                    "When he recovered from that, he was standing beside a "+describe[t3]+" "+ architecture[t4]+". " +
+                    "When he recovered from that, he was standing beside "+describe[t3]+" "+ architecture[t4]+". " +
                     "In the desert, some merchants passed by occasionally. " +
                     "Through conversation, he learned that the current ruler was "+history_war[t1][0]+". " +
                     "There are irreconcilable contradictions between "+history_war[t1][0]+" and "+history_war[t1][4]+"." +
@@ -238,7 +238,7 @@ public class timeTravel {
                     ""+names[t7]+ " was depressed all his life, " +
                     "realized that a great opportunity was in front of him," +
                     "therefore he decided to "+ decision[2]+". "+
-                    "He began to think about how to win recognition from ruler."+" To be continue......";
+                    "He began to think about how to win recognition from the ruler."+" To be continued......";
         }
 
         if(template==4)
@@ -253,18 +253,18 @@ public class timeTravel {
 //            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory= "One "+weather[t5]+" night, "+names[t7]+", a professor of "+identity[t2]+" at Columbia University," +
-                    " couldn't sleep. He was still thinking his doctoral students' history thesis during the day. " +
+                    " couldn't sleep. He was still thinking about his doctoral students' history thesis during the day. " +
                     "Suddenly a flash of lightning cut through the sky, " +
                     "he felt nothing but a blank in front of him. " +
                     "When everything was back to normal, " +
-                    "he found himself standing beside the "+describe[t3]+" "+ architecture[t4]+", " +
+                    "he found himself standing beside "+describe[t3]+" "+ architecture[t4]+", " +
                     "surrounded by many people who were worshiping. " +
                     "He initially judged that the current ruler " +
                     "was "+history_war[t1][0]+", about "+history_war[t1][2]+", which was the eve of the war with "+history_war[t1][4]+". " +
                     "When he was at a loss, "+history_war[t1][0]+" and "+history_war[t1][4]+" invited him to join their camp at the same time." +
                     " He decided to "+ decision[t6]+". " +
-                    "Ironically, one who study history all his life is rewriting the history. " +
-                    "To be continue......";
+                    "Ironically, one who studies history all his life is rewriting history. " +
+                    "To be continued......";
         }
 
         if(template==5)
@@ -303,8 +303,8 @@ public class timeTravel {
 //            int t7 = random1.nextInt(name_max)%(name_max);
 
             backstory="It seems impossible to go back to the past, " +
-                    "but "+names[t7]+", an "+identity[t2]+" professor at Stanford University, " +
-                    "woke up to find himself next to a "+describe[t3]+" "+ architecture[t4]+". " +
+                    "but "+names[t7]+", a "+identity[t2]+" professor at Stanford University, " +
+                    "woke up to find himself next to "+describe[t3]+" "+ architecture[t4]+". " +
                     "All his life's research is about "+history_war[t1][0]+", " +
                     "but many things can't be confirmed. " +
                     "However, he is now in "+history_war[t1][1]+ ", " +
@@ -356,8 +356,8 @@ public class timeTravel {
             String[] res0={
                     "","",""
             };
-            res0[0]= names[t7]+", a "+ identity[t2] +" professor of MIT";
-            res0[1]= names[t7]+"is a "+ identity[t2] +" professor of UCD";
+            res0[0]= names[t7]+" is a "+ identity[t2] +" professor of MIT";
+            res0[1]= names[t7]+" is a "+ identity[t2] +" professor of UCD";
             res0[2]= names[t7]+"has retired from UCD for 10 years";
 
             s=res0[step0];
@@ -372,7 +372,7 @@ public class timeTravel {
                     "",""
             };
             res0[0]= "One day, when he woke up, he found there is a "+describe[t3]+" "+architecture[t4]+" next to him";
-            res0[1]= "A flash of lightning streaked across the sky, when every thing recovered from that, he found there is a "+describe[t3]+" "+architecture[t4]+" next to him";
+            res0[1]= "A flash of lightning streaked across the sky when everything recovered from that, he found there is a "+describe[t3]+" "+architecture[t4]+" next to him";
             s=res0[step0];
 
         }
