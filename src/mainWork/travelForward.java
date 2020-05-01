@@ -3,74 +3,74 @@ package mainWork;
 import java.util.Random;
 
 public class travelForward {
+    public String s = new String("");
+
+    public String[] year={
+            "2049","2149", "2099","2120"
+    };
+
+    public String[] doing={
+            "courses","training","final exams","assignments","the basketball game"
+    };
+
+    public String[] equipment={
+            "phone","iPad","laptop","television"
+    };
+
+    public String[] level={
+            "physics student",
+            "mathematics student",
+            "quantum mechanics student",
+            "chemistry student",
+            "mechanical engineering student"
+    };
+
+    public String[] names=
+            {
+                    "James",
+                    "Robert",
+                    "William",
+                    "Thomas",
+                    "Daniel",
+                    "Matthew",
+                    "Timothy",
+                    "Scott",
+                    "Raymond",
+                    "Joshua"
+
+            };
+
+    public String[] rough={
+            "the scarcity of natural resources",
+            "the reduction of arable land",
+            "acute air and water pollution",
+            "the temperature drop caused by ice age",
+            "rising sea levels caused by global warming",
+            "increased radiation from nuclear waste",
+            "mass extinction of poultry"
+    };
+
+    public String[] plans={
+            "immigrate to Mars",
+            "ask for help from alien civilization",
+            //"product a man-made sun",
+            "Wander the earth to other galaxies"
+    };
+
+    public String[] awareness={
+            "great destruction on the natural environment",
+            "plundering exploration of the natural resources"
+
+    };
+
+    public String[] decision={
+            "sign up for the plan",
+            "make a contribution to save the earth",
+            "become an volunteer and encourage more people take part in",
+            "donate his deposit money in AIB"
+    };
+
     public String forward_story(){
-        String s = new String("");
-
-        String[] year={
-                "2049","2149", "2099","2120"
-        };
-
-        String[] doing={
-                "courses","training","final exams","assignments","the basketball game"
-        };
-
-        String[] equipment={
-                "phone","iPad","laptop","television"
-        };
-
-        String[] level={
-                "physics student",
-                "mathematics student",
-                "quantum mechanics student",
-                "chemistry student",
-                "mechanical engineering student"
-        };
-
-        String[] names=
-                {
-                        "James",
-                        "Robert",
-                        "William",
-                        "Thomas",
-                        "Daniel",
-                        "Matthew",
-                        "Timothy",
-                        "Scott",
-                        "Raymond",
-                        "Joshua"
-
-                };
-
-        String[] rough={
-                "the scarcity of natural resources",
-                "the reduction of arable land",
-                "acute air and water pollution",
-                "the temperature drop caused by ice age",
-                "rising sea levels caused by global warming",
-                "increased radiation from nuclear waste",
-                "mass extinction of poultry"
-        };
-
-        String[] plans={
-                "immigrate to Mars",
-                "ask for help from alien civilization",
-                //"product a man-made sun",
-                "Wander the earth to other galaxies"
-        };
-
-        String[] awareness={
-                "great destruction on the natural environment",
-                "plundering exploration of the natural resources"
-
-        };
-
-        String[] decision={
-                "sign up for the plan",
-                "make a contribution to save the earth",
-                "become an volunteer and encourage more people take part in",
-                "donate his deposit money in AIB"
-        };
-
         Random random=new Random();
         int template = random.nextInt(6)%(6);
 
@@ -175,4 +175,7 @@ public class travelForward {
 
         return s;
     }
+
+
+
 }
